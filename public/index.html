@@ -23,12 +23,33 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <title>lssmn.io</title>
-    <style> body { font-family: Menlo, Monaco, 'Courier New', monospace; background-color: #282C34; color: #ABB2BF; } </style>
+    <style>
+      
+      body {
+        background-color: #282C34; 
+        font-family: Menlo, Monaco, 'Courier New', monospace; 
+      }
+      
+      .loader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        color: #E06C75; 
+      }
+      
+    </style>
   </head>
   <body>
     <noscript>
       Seriously?
     </noscript>
-    <div id="root">Loading...</div>
+    <div id="root">
+      <div class="loader">
+        <span>Brace yourself...</span>
+      </div>
+    </div>
   </body>
 </html>
