@@ -12,9 +12,7 @@
     "start": "node scripts/start.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "test": "node scripts/test.js --env=jsdom",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "test": "node scripts/test.js --env=jsdom"
   },
   "babel": {
     "plugins": [
@@ -115,8 +113,6 @@
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
     "webpack-dev-server": "2.8.2",
-    "webpack-manifest-plugin": "1.2.1",
-    "semantic-release": "15.2.0",
-    "travis-deploy-once": "5.0.0"
+    "webpack-manifest-plugin": "1.2.1"
   }
 }
