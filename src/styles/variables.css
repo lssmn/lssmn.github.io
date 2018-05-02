@@ -1,0 +1,17 @@
+:root {
+  --gutter-s: .8em;
+  --gutter-m: 1.2em;
+  --gutter-l: 2em;
+  --gutter-xl: 3.8em;
+
+  --font-family: Menlo, Monaco, 'Courier New', monospace;
+  --font-size-s: .8em;
+  --font-size-m: 1em;
+  --font-size-l: 1.2em;
+  --font-size-xl: 2em;
+  
+  --color-primary: #282C34;
+  --color-secondary: #E06C75;
+  --color-tertiary: #98C379;
+  --color-text: #ABB2BF;
+}
