@@ -71,20 +71,6 @@ exports[`App component should render without exploding 1`] = `
         <p>
           I work as Senior Application Engineer at The LEGO® Group 🤓
         </p>
-        <p>
-          I spend my time:
-        </p>
-        <ul>
-          <li>
-            👨‍💻 Writing code
-          </li>
-          <li>
-            🎸 Playing music
-          </li>
-          <li>
-            🌍 Travelling
-          </li>
-        </ul>
       </article>
       <article>
         <p>
