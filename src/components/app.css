@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 768px) {
   .app {
-    padding: var(--gutter-xl) var(--gutter-m) var(--gutter-m) var(--gutter-m);
+    padding: var(--gutter-xxl) var(--gutter-m);
   }
 }
 

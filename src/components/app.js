@@ -35,7 +35,8 @@ const App = () => (
           <blockquote className={styles.quote}>
             <p>I'm personally convinced that computer science has a lot in common with physics. Both are about how the world works at a rather fundamental level.</p> 
             <p>The difference, of course, is that while in physics you're supposed to figure out how the world is made up, in computer science you create the world.</p>
-            <p>Within the confines of the computer, you are the creator. You get to ultimately control everything that happens. If you're good enough, you can be God. On a small scale.</p>
+            <p>Within the confines of the computer, you are the creator. You get to ultimately control everything that happens.</p>
+            <p>If you're good enough, you can be God. On a small scale.</p>
             <cite className={styles.author}>Linus Torvalds</cite>
           </blockquote>
         </article>
